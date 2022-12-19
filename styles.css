@@ -72,3 +72,39 @@ button {
     border-style: none;
     padding: .7em 2em .7em 2em;
 }
+
+.pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pics-header {
+    font-size: 20px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    
+}
+
+.pics-w-subtext {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    
+}
+
+.rdm {
+    max-width: 150px;
+    max-height: auto;
+    border-radius: 10px;
+}
+
+.onee, .twoo, .threee, .fourr {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+.rdm-sbtxt {
+    text-align: center;
+}
