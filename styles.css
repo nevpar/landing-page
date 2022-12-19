@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header {
     background-color: #1f2937;
     padding: 0 5em 0 5em;
@@ -15,13 +16,14 @@ body {
     font-size: 1.3em;
     color: white;
     margin: 0px;
-    padding: 10px 
+    padding: 10px
 }
+
 .header-links {
     display: flex;
     gap: 1em;
 
-    
+
 }
 
 a {
@@ -55,7 +57,7 @@ li {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
-    padding: bottom 0;   
+    padding: bottom 0;
 }
 
 .website-subtext {
@@ -81,16 +83,16 @@ button {
 
 .pics-header {
     font-size: 20px;
-    font-weight: extra-bold;
+    font-style: extra-bold;
     color: #1f2937;
-    
+
 }
 
 .pics-w-subtext {
     display: flex;
     flex-direction: row;
     gap: 35px;
-    
+    padding-bottom: 50px
 }
 
 .rdm {
@@ -99,7 +101,10 @@ button {
     border-radius: 10px;
 }
 
-.onee, .twoo, .threee, .fourr {
+.onee,
+.twoo,
+.threee,
+.fourr {
     display: flex;
     flex-direction: column;
     max-width: 150px;
@@ -107,4 +112,31 @@ button {
 
 .rdm-sbtxt {
     text-align: center;
+}
+
+.quote-box {
+    background-color: #e5e7eb;
+    display: flex;
+
+    padding: 150px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    font-variant-ligatures: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.thor {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.thor-q {
+    display: flex;
+    justify-content: flex-end;
 }
