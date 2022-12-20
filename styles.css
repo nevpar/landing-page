@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 .header {
@@ -67,7 +67,7 @@ li {
     max-width: 20em;
 }
 
-button {
+.signup-top {
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
@@ -139,4 +139,56 @@ button {
 .thor-q {
     display: flex;
     justify-content: flex-end;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    padding: 10px 70px 10px 70px;
+}
+
+.signup-box-text{
+    margin-right: 30px;
+}
+.signup-header {
+    color: white;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.signup-text {
+    color: white;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    margin: auto;
+    padding: .6em 2em .6em 2em;
+    
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
